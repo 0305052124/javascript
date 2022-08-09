@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>meta</title>
+    <!-- 
+        meta主要用于设置网页中的一些元数据，元数据不是给用户看的
+        charset 指定网页字符集
+        name 指定数据的名称
+        content 指定数据的内容
+            keywords 表示网站的关键字，可以同时指定多个关键字，关键字之间用，逗号隔开
+                <meta name ="keywords" content="网上购物">
+                <meta name ="keywords" content="网购">
+            description 用于网站的描述
+                <meta name ="desription" content="京东">
+            title标签的内容会作为搜索结果的超链接上的文字显示
+     -->
+     <meta name ="keywords" content="前端">
+     <meta name ="description" content="这是哥网站">
+     <!-- 
+        <meta name ="refresh" content="3；url=http://www.baidu.co,">
+        3秒后将页面重定向到另一个网站
+      -->
+</head>
+<body>
+</body>
+</html>
