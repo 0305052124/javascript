@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>实体/转义字符</title>
+</head>
+<body>
+
+     <p>
+        <!-- 这是      空格
+        这是 空格-->
+        这是&nbsp;&nbsp;&nbsp;&nbsp;空格
+            <!-- 这是    空格 -->
+     </p>
+     <P>
+        <!--  大于小于号ac
+        大于小于号a<b>c
+        -->
+        a&lt;b&gt;c
+        <!--a<b>c   -->
+     </P>
+</html>
