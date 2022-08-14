@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片标签</title>
+</head>
+<body>
+    <!-- 
+        图片标签用于向当前页面引入一个外部图片
+        使用img标签来引入外部图片，img标签是一个自结束标签
+        img这种元素属于替换元素（块和行内元素之间，具有两种元素的特点）
+        属性：
+            src属性指定的是外部图片的路径（路径规则和超链接是一样的）
+            alt ：照片的描述，这个描述默认情况下不会显示
+                  搜索引擎会根据alt中的内容来识别图片，如果不写alt属性则照片不会被搜索引擎搜索到
+            width：照片的宽度（单位是像素）
+            height：照片的高度
+               -宽度和高度中如果只修改了一个，则另一个会等比例缩放
+        注意：
+        一般情况在pc端，不建议修改图片的大小，需要多大就裁多大
+        但是在移动端，经常需要对图片进行缩放
+     -->
+     <img src="./校园风景/DSC01841.JPG",alt="林间小道" width="2000">
+     <img width="4000" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpreview.qiantucdn.com%2Fpaixin%2F91%2F06%2F75%2F28T58PICwPQGJUwEEsCFH_PIC2018.jpg%21w1024_new_small&refer=http%3A%2F%2Fpreview.qiantucdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663077494&t=17178c1d1335683af4f51e20b1b23df5",alt="小羊">
+</body>
+</html>
