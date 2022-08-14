@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>图片标签</title>
+    <title>图片</title>
 </head>
 <body>
     <!-- 
@@ -22,7 +22,28 @@
         一般情况在pc端，不建议修改图片的大小，需要多大就裁多大
         但是在移动端，经常需要对图片进行缩放
      -->
-     <img src="./校园风景/DSC01841.JPG",alt="林间小道" width="2000">
-     <img width="4000" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpreview.qiantucdn.com%2Fpaixin%2F91%2F06%2F75%2F28T58PICwPQGJUwEEsCFH_PIC2018.jpg%21w1024_new_small&refer=http%3A%2F%2Fpreview.qiantucdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663077494&t=17178c1d1335683af4f51e20b1b23df5",alt="小羊">
-</body>
-</html>
+     <!-- 
+        照片的格式：
+            jpeg（jpg）
+                -支持颜色比较丰富，不支持透明效果，不支持动图
+                -一般用来显示照片
+            gif
+                -支持的颜色比较少，支持简单透明，支持动图
+                -颜色单一的图片，动图
+            png
+                -支持的颜色丰富，支持复杂透明，不支持动图
+                -颜色丰富，复杂透明图片（专为网页而生）
+            webp
+                -这种格式是谷歌新推出的专门用来表示网页中图片的一种格式
+                -它具备其他图片格式的所有优点
+                -缺点：兼容性不好
+            base64
+                -将图片使用base64编码，这样可以将图片转为字符，通过字符形式来引入图片
+                -一般都是一些需要和网页一起加载的图片才会使用base64
+
+        （效果一样，用小的，效果不一样，用效果好的）    
+      -->
+       <img src="./校园风景/DSC01841.JPG",alt="林间小道" width="500"> 
+        <img width="600" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpreview.qiantucdn.com%2Fpaixin%2F91%2F06%2F75%2F28T58PICwPQGJUwEEsCFH_PIC2018.jpg%21w1024_new_small&refer=http%3A%2F%2Fpreview.qiantucdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663077494&t=17178c1d1335683af4f51e20b1b23df5",alt="小羊"> 
+    </body>
+    </html>
