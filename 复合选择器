@@ -40,5 +40,6 @@
     <p class="red">我是p元素</p>
     <div class="red2">我是div2</div>
     <h1>标题</h1>
+    <span>haha<span>
 </body>
 </html>
