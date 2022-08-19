@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+        /* 
+        伪元素，表示页面中一些特殊的并不真实存在的元素（特殊位置）
+        伪元素使用::开头
+        ::first-letter 首字母
+        ::first-line   第一行
+        ::selection    选中内容
+        ::before       在元素的开始添加内容
+        ::after        在元素的最后添加内容
+              -before和after必须结合content属性来使用
+        */
+        p::first-letter{
+            font-size: 50px;
+        }
+        p::first-line{
+            background-color: aqua;
+        }
+        p::selection{
+            background-color: blue;
+        }
+        div::before{
+            content: 'fvs ';
+            /* color: blueviolet; */
+        }
+        div::after{
+            content: ' abc';
+            /* color: brown; */
+        }
+    </style>
+</head>
+<body>
+    <div>Hello World fvsudykv </div>
+    <p>Hello World fvsudykv是  二分派人给  【格式发二十光年ihro  fahv fsv s bvis p sb s vsp iw eu sb vs bvsn bvps ebn bb bi us b s ifsg fsygguyso sf suofygsoyf s ysfgsgfys of sfy sfs fysg f sfw egfysvs syfg s fusgyfusgeuf s fywefwevftvwerg  gesfvdgv  f gryfs fsi  fs f si fis </p>
+</body>
+</html>
