@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易新闻列表</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        body{
+            /* background-color: #bfa; */
+        }
+        a{
+            /* 去除下划线 */
+            text-decoration: none;
+        }
+        /* 设置容器的样式 */
+        .news-wrapper{
+            /* 设置宽度 */
+            width: 300px;
+            /* 设置高度 */
+            height: 357px;
+            /* 设置居中 */
+            margin: 50px auto;
+            /* 设置背景颜色，显示轮廓 */
+            background-color: #fff;
+            /* 设置上边框 */
+            border-top: 1px solid #ddd;
+        }
+        /* 设置news-title */
+        .news-title{
+            /* 为了边框和文字宽度一致，需要将h2转换为行内块元素 */
+            display: inline-block;
+            /* 设置高度 */
+            height: 30px;
+            /* 设置上边框 */
+            border-top: 1px red solid;
+            /* 通过margin-top将h2上移，盖住上边框 */
+            margin-top: -1px;
+            padding: 10px;
+        }
+        /* 设置title中超链接的样式 */
+        .news-title a{  
+            /* 设置颜色 */
+            color: #40406B;
+            /* 设置文字的加粗效果 */
+            font-weight: bold;
+        }
+        /* 设置图片容器的高度 */
+        .news-img{
+            height: 150px;
+        }
+        /* 设置图片的文字效果 */
+        .news-img .img-title{
+            /* 上移文字 */
+            margin-top: -30px;
+            /* 设置字体样式 */
+            color: #fff;
+            /* 设置加粗 */
+            font-weight: bold;
+            /* 设置padding */
+            padding-left: 30px;
+        }
+        .news-list{
+            /* 设置上外边距 */
+            margin-top: 20px;
+            /*设置左侧的padding
+            padding-left: 14px;
+            设置项目符号 
+            list-style: square;*/
+        }
+        /* 设置li */
+        .news-list li{
+            /* 设置下外边距 */
+            margin-bottom: 17px;
+        }
+        /* 设置li中的文字 */
+        .news-list li a{
+            /* 设置字体大小 */
+            font-size: 14px;
+            /* 设置字体颜色 */
+            color: #666;
+        } 
+        /* 通过before伪元素，来为li添加项目符号 */
+        .news-list li::before{
+            content:'♦️';
+            color:rgb(218,218, 218);
+            font-size: 12px;
+            margin-right: 4px;
+        }
+        /* 超链接鼠标移入样式 */
+        .news-list li a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 创建新闻列表的外侧容器 -->
+    <div class="news-wrapper">
+        <!-- 创建一个标题标签 -->
+        <h2 class="news-title">
+            <a href="#">娱乐</a>
+        </h2>
+        <!-- 创建一个图片的容器-->
+        <div class="news-img">
+            <a href="#"> 
+                <img src="./图片/c84d3191j00rgxx8w000ac0008c0046c.webp" alt="关晓彤">
+                <!-- 创建图片标题 -->
+                <h3 class="img-title">关晓彤直发抹胸裙大片</h3>
+            </a>
+        </div>
+        <!-- 新闻列表 -->
+        <ul class="news-list">
+            <li>
+                <a href="#">佟大为庆和关悦领证15年 拍年轻时同款合照</a>
+            </li>
+            <li>
+                <a href="#">SNH48年度总决选排名公布 沈梦瑶第一</a>
+            </li>
+            <li>
+                <a href="#">汪峰小女醒醒罕露面 越长越美眉眼像妈妈</a>
+            </li>
+            <li>
+                <a href="#">第一网红喊话《明日战记》 古天乐诚意回应</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
