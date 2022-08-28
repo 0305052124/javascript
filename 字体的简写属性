@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体的简写属性</title>
+    <style>
+        div{
+            border:1px red solid;
+            line-height: 2;
+            /* 
+                font可以设置字体相关的所有属性
+                    语法：
+                        font 字体大小/行高 字体族
+                        行高 可以省略不写 如果不写使用默认值
+            */
+            /* 
+                font-weight 字重 字体的加粗
+                可选值：
+                    normal 默认值 不加粗
+                    bold 加粗
+                    100-900 九个级别（不用）
+            */ 
+            /* 
+                font-style 字体的风格
+                normal 正常的
+                italic 斜体
+            */
+            font-size: 50px;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <div>vbls g六十八如果 git格式</div>
+</body>
+</html>
