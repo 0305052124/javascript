@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本水平垂直对齐</title>
+    <style>
+        div{
+            width: 500px;
+            border: 1px red solid;
+            /* text-align: justify; */
+            /*  
+                text-align 文本的水平对齐
+                    可选值：
+                        left 左侧对齐
+                        right 右对齐
+                        center 居中对齐
+                        justify 两端对齐
+            */
+            font-size: 50px;
+        }
+        span{
+            font-size: 20px;
+            border: 1px blue solid;
+            vertical-align:baseline;
+            /* 
+                vertical-align 设置元素垂直对齐的方式
+                    可选值：
+                        baseline默认值 基线对齐
+                        top 顶端对齐
+                        bottom 底部对齐
+                        middle 居中对齐
+            */
+        }
+        p{
+            border: 1px red solid;
+        }
+        img{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        今天天气<span>真</span>不错！
+    </div>
+    <p>
+        <img src="../exercise/img/01.webp" alt="">
+    </p>
+</body>
+</html>
